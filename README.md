@@ -52,7 +52,7 @@ echo $DOCKER_ID
 ```bash
 src/install.py
 ```
-### May ask for postgress password
+#### May ask for postgress password
 ```bash
 Password: postgrespassword
 ```
@@ -60,7 +60,7 @@ Password: postgrespassword
 ```bash
 ./start_all_installed_fact_components
 ```
-### Open FACT application
+#### Open FACT application
 ```bash
 http://localhost:5001
 ```
