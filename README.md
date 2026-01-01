@@ -30,7 +30,7 @@ docker run -it \
   --user root \
   fact /bin/bash
 ```
-##### If you downloaded the image, start fact container using image name
+##### Or, If you downloaded the image, start fact container using image name
 ```bash
 docker run -it \
   --name fact-core \
