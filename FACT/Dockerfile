@@ -171,6 +171,6 @@ CMD ["/bin/bash"]
 #    src/install.py
 #   ./start_all_installed_fact_components
 # Note: If password for postgres is needed, it is 'postgrespassword'
-# Open fact web interface at: http://127.0.0.1:5001
+# Open fact web interface at: http:/localhost:5001
 
 
