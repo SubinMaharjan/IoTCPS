@@ -8,6 +8,10 @@ git clone git@github.com:SubinMaharjan/IoTCPS.git
 
 ## Installation for FACT
 
+#### Move to FACT directory
+```bash
+cd FACT
+```
 #### Build Docker images
 ```bash
 docker build -t fact .
