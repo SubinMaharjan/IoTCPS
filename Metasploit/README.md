@@ -23,3 +23,5 @@ docker network connect greenbone-community-edition_default metasploit
  ```
 
  ### Use the IP obtained from above command for scanning in OpenVAS
+
+ #### The image for metasploit scan is shown in <a href = "metasploit_scan.png">metasploit_scan.png</a> and the vulnerabilities are shown in <a href = "metasploit_vulnerabilities.png">metasploit_vulnerabilities.png</a> 
