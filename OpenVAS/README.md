@@ -36,3 +36,7 @@ curl -f -O https://greenbone.github.io/docs/latest/_static/setup-and-start-green
 ```bash
 http://localhost:9392/feedstatus
 ```
+
+##### Once completed, feed status will change from `update in progress...` to `current` as shown in <a href = "feed status.png">feed status.png</a> file
+
+##### You can then start the scan as shown in <a href = "Scan.png"> Scan.png</a> file
