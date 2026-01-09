@@ -30,4 +30,9 @@ Password: admin
 ```bash
 curl -f -O https://greenbone.github.io/docs/latest/_static/setup-and-start-greenbone-community-edition.sh && chmod u+x setup-and-start-greenbone-community-edition.sh
 ./setup-and-start-greenbone-community-edition.sh
+```
 
+### Check feed status to see if feeds are updated. Once, they are updated, only after then scan config is available.
+```bash
+http://localhost:9392/feedstatus
+```
