@@ -32,7 +32,7 @@ curl -f -O https://greenbone.github.io/docs/latest/_static/setup-and-start-green
 ./setup-and-start-greenbone-community-edition.sh
 ```
 
-### Check feed status to see if feeds are updated. Once, they are updated, only after then scan config is available.
+### Check feed status to see if feeds are updated. Once, they are updated, only after then scan config is available. Updating feed may take time. Please be patient for about 30-90 min depending on your system. To monitor status paste the link in the browser.
 ```bash
 http://localhost:9392/feedstatus
 ```
