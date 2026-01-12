@@ -25,7 +25,6 @@ docker rm $(docker ps -aq) 2>/dev/null
 #### Remove all images
 docker rmi $(docker images -aq) -f
 
-
 #### Remove all volumes
 docker volume rm $(docker volume ls -q)
 
