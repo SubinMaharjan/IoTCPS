@@ -15,3 +15,23 @@ git clone git@github.com:SubinMaharjan/IoTCPS.git
 5. For <a href="Firmadyne/README.md"> Firmadyne installation </a> <br>
 
 ### Enjoy !!! Happy Installation
+
+### If you need to delete the docker containers and clear up the spaces, use the following commands:
+```bash
+#### Stop and delete containers
+docker stop $(docker ps -aq) 2>/dev/null
+docker rm $(docker ps -aq) 2>/dev/null
+
+#### Remove all images
+docker rmi $(docker images -aq) -f
+
+
+#### Remove all volumes
+docker volume rm $(docker volume ls -q)
+
+#### Remove all networks
+docker network rm $(docker network ls -q)
+
+#### Delete volumes
+docker system prune -a --volumes -f
+```
