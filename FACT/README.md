@@ -18,7 +18,7 @@ docker run -it \
   --name fact-core \
   -p 5001:5000 \
   -v /var/run/docker.sock:/var/run/docker.sock \
-  -v path_to_FACT_dir/data:/home/fact/data \
+  -v $(pwd)/data:/home/fact/data \
   --user root \
   fact /bin/bash
 ```
@@ -28,7 +28,7 @@ docker run -it \
   --name fact-core \
   -p 5001:5000 \
   -v /var/run/docker.sock:/var/run/docker.sock \
-  -v path_to_FACT_dir/data:/home/fact/data \
+  -v $(pwd)/data:/home/fact/data \
   --user root \
   mhrznsubin/fact:0.1 /bin/bash
 ```
